@@ -6,9 +6,9 @@
 //  Copyright © 2015年 周景隆. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface FirstViewController : BaseViewController
 
 
 @end

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +19,60 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //create window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //create UITabBarView
+    UITabBarController *tab=[[UITabBarController alloc] init];
+
+    
+    self.window.rootViewController=tab;
+    
+    
+  
+    
+    FirstViewController *tb1=[[FirstViewController alloc]init];
+    tb1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"动客" image:[[UIImage imageNamed:@"share"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[UIImage imageNamed:@"share_selected"]];
+   
+    
+    SecViewController *tb2=[[SecViewController alloc]init];
+    tb2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"动场" image:[[UIImage imageNamed:@"office"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[UIImage imageNamed:@"office_selected"]];
+  
+    
+    ThirdViewController *tb3=[[ThirdViewController alloc]init];
+    tb3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"消息" image:[[UIImage imageNamed:@"chat"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ] selectedImage:[UIImage imageNamed:@"chat_selected"]];
+   
+    
+    
+    FourthViewController *tb4=[[FourthViewController alloc]init];
+    tb4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我动" image:[[UIImage imageNamed:@"user"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[UIImage imageNamed:@"user_selected"]];
+    
+  
+    [tb3.tabBarController.tabBar showBadgeOnItemIndex:2];
+ 
+   
+    
+    [self.window makeKeyAndVisible ];
+    tab.viewControllers=@[[self setNavbarAttr:tb1],[self setNavbarAttr:tb2],[self setNavbarAttr:tb3],[self setNavbarAttr :tb4]];
+    
+    
+ 
+  //  [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+   
+   // [self preferredStatusBarStyle];
+    
     return YES;
+}
+-(UINavigationController *) setNavbarAttr:(UIViewController *)tb{
+    //UIColor *color=[UIColor colorWithRed:93/255.0 green:163/255.0 blue:244/255.0 alpha:0.8];
+     UINavigationController *nav0=[[UINavigationController alloc]initWithRootViewController:tb];
+    tb.view.backgroundColor=[UIColor groupTableViewBackgroundColor];
+    tb.title=tb.tabBarItem.title;
+    [tb.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} ];
+    [tb.navigationController.navigationBar setBackgroundImage :[UIImage imageNamed:@"nav_top"] forBarMetrics:UIBarMetricsDefault];
+    return nav0;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

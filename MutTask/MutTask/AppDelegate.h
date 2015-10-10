@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UITabBar+badge.h"
+
+#import "FirstViewController.h"
+#import "SecViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

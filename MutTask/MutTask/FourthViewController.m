@@ -1,25 +1,29 @@
 //
-//  ViewController.m
+//  ViewController+FourthViewController.m
 //  MutTask
 //
-//  Created by 周景隆 on 15/10/9.
+//  Created by 周景隆 on 15/10/10.
 //  Copyright © 2015年 周景隆. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FourthViewController.h"
 
-@interface ViewController ()
+@interface FourthViewController ()
 
 @end
 
 
-
-@implementation ViewController
+@implementation FourthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
+    
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

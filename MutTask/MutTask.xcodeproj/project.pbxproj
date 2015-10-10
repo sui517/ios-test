@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		C57C7CC71BC7FD6300530205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CC61BC7FD6300530205 /* main.m */; };
 		C57C7CCA1BC7FD6300530205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CC91BC7FD6300530205 /* AppDelegate.m */; };
-		C57C7CCD1BC7FD6300530205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CCC1BC7FD6300530205 /* ViewController.m */; };
+		C57C7CCD1BC7FD6300530205 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CCC1BC7FD6300530205 /* FirstViewController.m */; };
 		C57C7CD01BC7FD6300530205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C7CCE1BC7FD6300530205 /* Main.storyboard */; };
 		C57C7CD21BC7FD6300530205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57C7CD11BC7FD6300530205 /* Assets.xcassets */; };
 		C57C7CD51BC7FD6300530205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C7CD31BC7FD6300530205 /* LaunchScreen.storyboard */; };
+		C57C7CDF1BC8976F00530205 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CDE1BC8976F00530205 /* UITabBar+badge.m */; settings = {ASSET_TAGS = (); }; };
+		C57C7CE31BC9134000530205 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CE21BC9134000530205 /* SecViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C57C7CE61BC913C900530205 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CE51BC913C900530205 /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C57C7CE91BC9143F00530205 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CE81BC9143F00530205 /* FourthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C57C7CEC1BC9169F00530205 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C7CEB1BC9169F00530205 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		C57C7CC61BC7FD6300530205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C57C7CC81BC7FD6300530205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C57C7CC91BC7FD6300530205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C57C7CCB1BC7FD6300530205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C57C7CCC1BC7FD6300530205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C57C7CCB1BC7FD6300530205 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C57C7CCC1BC7FD6300530205 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C57C7CCF1BC7FD6300530205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C57C7CD11BC7FD6300530205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C57C7CD41BC7FD6300530205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C57C7CD61BC7FD6300530205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57C7CDD1BC8976F00530205 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
+		C57C7CDE1BC8976F00530205 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
+		C57C7CE11BC9134000530205 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		C57C7CE21BC9134000530205 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		C57C7CE41BC913C900530205 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C57C7CE51BC913C900530205 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C57C7CE71BC9143F00530205 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C57C7CE81BC9143F00530205 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		C57C7CEA1BC9169F00530205 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C57C7CEB1BC9169F00530205 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,10 @@
 		C57C7CC41BC7FD6300530205 /* MutTask */ = {
 			isa = PBXGroup;
 			children = (
+				C57C7CE01BC912FA00530205 /* Controller */,
+				C57C7CDC1BC8973E00530205 /* UI */,
 				C57C7CC81BC7FD6300530205 /* AppDelegate.h */,
 				C57C7CC91BC7FD6300530205 /* AppDelegate.m */,
-				C57C7CCB1BC7FD6300530205 /* ViewController.h */,
-				C57C7CCC1BC7FD6300530205 /* ViewController.m */,
 				C57C7CCE1BC7FD6300530205 /* Main.storyboard */,
 				C57C7CD11BC7FD6300530205 /* Assets.xcassets */,
 				C57C7CD31BC7FD6300530205 /* LaunchScreen.storyboard */,
@@ -77,6 +92,32 @@
 				C57C7CC61BC7FD6300530205 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57C7CDC1BC8973E00530205 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C57C7CDD1BC8976F00530205 /* UITabBar+badge.h */,
+				C57C7CDE1BC8976F00530205 /* UITabBar+badge.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C57C7CE01BC912FA00530205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C57C7CCB1BC7FD6300530205 /* FirstViewController.h */,
+				C57C7CCC1BC7FD6300530205 /* FirstViewController.m */,
+				C57C7CE11BC9134000530205 /* SecViewController.h */,
+				C57C7CE21BC9134000530205 /* SecViewController.m */,
+				C57C7CE41BC913C900530205 /* ThirdViewController.h */,
+				C57C7CE51BC913C900530205 /* ThirdViewController.m */,
+				C57C7CE71BC9143F00530205 /* FourthViewController.h */,
+				C57C7CE81BC9143F00530205 /* FourthViewController.m */,
+				C57C7CEA1BC9169F00530205 /* BaseViewController.h */,
+				C57C7CEB1BC9169F00530205 /* BaseViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C57C7CCD1BC7FD6300530205 /* ViewController.m in Sources */,
+				C57C7CCD1BC7FD6300530205 /* FirstViewController.m in Sources */,
 				C57C7CCA1BC7FD6300530205 /* AppDelegate.m in Sources */,
+				C57C7CEC1BC9169F00530205 /* BaseViewController.m in Sources */,
+				C57C7CE31BC9134000530205 /* SecViewController.m in Sources */,
+				C57C7CE61BC913C900530205 /* ThirdViewController.m in Sources */,
+				C57C7CE91BC9143F00530205 /* FourthViewController.m in Sources */,
 				C57C7CC71BC7FD6300530205 /* main.m in Sources */,
+				C57C7CDF1BC8976F00530205 /* UITabBar+badge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
