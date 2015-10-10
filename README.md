@@ -1,2 +1,2 @@
 # ios-test
-Helloword IOS
+helloworld IOS
